@@ -1,0 +1,2 @@
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 game_over_mem.ngc game_over_mem.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_over_mem_map.ncd game_over_mem.ngd game_over_mem.pcf 
